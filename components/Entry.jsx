@@ -15,7 +15,7 @@ export default function Entry(props) {
             <div className="info-container">
                 <img 
                     className="marker"
-                    src="https://icon2.cleanpng.com/20240125/utw/transparent-map-pin-red-dot-with-white-magnifying-glass-1710906071957.webp" 
+                    src="./marker_icon.png" 
                     alt="map marker icon"
                 />
                 <span className="country">{props.entry.country}</span>
