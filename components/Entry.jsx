@@ -13,10 +13,8 @@ export default function Entry(props) {
                 />
             </div>
             <div className="info-container">
-                <img 
+                <FontAwesomeIcon icon="fa-solid fa-location-pin" style={{color: "#e74b3a",}} 
                     className="marker"
-                    src="./marker_icon.png" 
-                    alt="map marker icon"
                 />
                 <span className="country">{props.entry.country}</span>
                 <a href={props.entry.googleMapsLink} target="_blank">View on Google Maps</a>
